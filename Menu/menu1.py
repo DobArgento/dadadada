@@ -36,9 +36,3 @@ help_menu = tk.Menu(menubar)
 menubar.add_cascade(label="Help", menu=help_menu)
 help_menu.add_command(label="About...", command=lambda: print("About..."))
 root.mainloop()
-
-whatever_you_do = "Whatever you do will be insignificant, " \
-"but it is very important that you do it.\n(Mahatma Gandhi)"
-msg = tk.Message(root, text=whatever_you_do, bg='lightgreen', font="Times 24 italic")
-msg.grid()
-root.mainloop()
